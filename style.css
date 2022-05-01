@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+#home{
+    border: 10;
+    border-style: solid;
+    border-color: aliceblue;
+    width: fit-content;
+    border-radius: 10px;
+}

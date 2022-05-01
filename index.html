@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <title>Workstation Booking</title>
+    <script>
+        function func() {
+            console.log("Hello");
+            }
+    </script>
+
+
+
+
+    <body>
+        <h1>BOOK SLOTS</h1>
+        <h3>To access the workstation book slots</h3>
+
+        <div id="selects">
+            <div id="pc">
+                <select name="PC" id="workstations" style="width: max-content;">
+                    <option value="Choose PC" selected hidden>Choose A Workstation</option>
+                    <option value="3090">RTX 3090 Computer 1 </option>
+                    <option value="3080">RTX 3080 Computer 2</option>
+                    <option value="3080">RTX 3080 Computer 3</option>
+                </select>
+            </div>
+            <div id="time">
+                <select name="Choose Your Slot: " id="slots">
+                    <option value="Choose Time Slot" selected hidden>Choose A Time Slot</option>
+                    <option value="9:00-10:00">9:00-10:00</option>
+                    <option value="10:00-11:00">10:00-11:00</option>
+                    <option value="11:00-12:00">11:00-12:00</option>
+                    <option value="12:00-13:00">12:00-13:00</option>
+                    <option value="13:00-14:00">13:00-14:00</option>
+                    <option value="14:00-15:00">14:00-15:00</option>
+                    <option value="15:00-16:00">15:00-16:00</option>
+                </select>
+            </div>
+            <button onclick="location.href = './status.html' ";>Submit</button>
+        </div>
+    </body>
+</html>
